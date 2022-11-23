@@ -1,0 +1,28 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "homepage",
+  "scripts": {
+    "test": "http-server -a 127.0.0.1 -p 8000",
+    "serve": "http-server -a 0.0.0.0 -p 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgc2333/homepage.git"
+  },
+  "author": "student_2333 <lgc2333@126.com>",
+  "bugs": {
+    "url": "https://github.com/lgc2333/homepage/issues"
+  },
+  "homepage": "https://github.com/lgc2333/homepage#readme",
+  "dependencies": {
+    "axios": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "http-server": "^14.1.1"
+  }
+}

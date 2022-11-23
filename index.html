@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>HomePage | STUDENT_2333</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="//unpkg.com/aplayer@1.10.1/dist/APlayer.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+  </head>
+
+  <body class="is-preload">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <!-- Header -->
+        <header id="header">
+          <h1>STUDENT_2333</h1>
+          <p>~ 什么都不会的废物咸鱼一只 ~</p>
+          <p>背景图：<a id="bg-info" href="#" target="_blank">Loading~</a></p>
+
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="https://jq.qq.com/?_wv=1027&k=wlAEnkHe"
+                  class="icon brands fa-qq"
+                >
+                  <span class="label">QQ</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/lgc2333" class="icon brands fa-telegram"
+                  ><span class="label">Telegram</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/lgc2333"
+                  class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://space.bilibili.com/257534706"
+                  class="icon brands fa-bilibili"
+                  ><span class="label">Bilibili</span></a
+                >
+              </li>
+              <li>
+                <a href="mailto:lgc2333@126.com" class="icon solid fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://shigure.lgc2333.top"
+                  class="icon soild fa-file-lines"
+                  ><span class="label">Shigure Bot 帮助</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <meting-js
+          server="netease"
+          type="playlist"
+          id="2878398858"
+          fixed="true"
+          autoplay="true"
+          order="random"
+        ></meting-js>
+
+        <!-- Footer -->
+        <footer id="footer">
+          <span class="copyright">
+            &copy; student_2333 2022<br />
+            Design: <a href="http://html5up.net">HTML5 UP</a>
+          </span>
+        </footer>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="https://unpkg.com/aplayer/dist/APlayer.min.js"></script>
+    <script src="https://unpkg.com/meting/dist/Meting.min.js"></script>
+    <script>
+      window.onload = function () {
+        document.body.classList.remove('is-preload');
+      };
+      window.ontouchmove = function () {
+        return false;
+      };
+      window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+      };
+    </script>
+  </body>
+</html>
