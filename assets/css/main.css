@@ -1225,3 +1225,11 @@ a:hover {
 .aplayer-music {
   color: #000;
 }
+
+.aplayer-list li {
+  text-align: left !important;
+}
+
+.aplayer-list-title {
+  color: #000 !important;
+}
