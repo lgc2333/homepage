@@ -23,7 +23,7 @@ async function changeBG() {
     const isPortrait = innerWidth / innerHeight <= 3 / 4;
     const filteredData = data.filter((v) => {
       // 顺便过滤AI图
-      if (v.aiType) return false;
+      if (v.aiType === 2) return false;
 
       const { width, height } = v;
       let result = width >= height; // 是否横屏
