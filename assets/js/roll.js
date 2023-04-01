@@ -1,8 +1,11 @@
 const LINKS = [
-  'https://www.bilibili.com/video/BV1GJ411x7h7',
+  'https://www.bilibili.com/video/BV1GJ411x7h7/',
   'https://www.bilibili.com/video/BV1wT411m7er/',
   'https://www.bilibili.com/video/BV1WK4y1Q7iS/',
+  'https://www.bilibili.com/video/BV1uM4y1F72p/',
+  'https://www.bilibili.com/video/BV1SD4y1J7uY/',
   'https://www.bilibili.com/video/BV13m4y1D7kT/',
+  'https://www.bilibili.com/video/BV1iJ411J7f5/',
 ];
 
 /**
