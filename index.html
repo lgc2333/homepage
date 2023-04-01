@@ -14,14 +14,14 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
     <link
       rel="stylesheet"
-      href="//unpkg.com/aplayer@1.10.1/dist/APlayer.min.css"
+      href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
@@ -33,11 +33,11 @@
       src="https://www.googletagmanager.com/gtag/js?id=G-WPGXHL82T9"
     ></script>
     <script>
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag('js', new Date());
-
       gtag('config', 'G-WPGXHL82T9');
     </script>
   </head>
@@ -106,7 +106,7 @@
         </header>
 
         <script>
-          meting_api =
+          window.meting_api =
             'https://meting.lgc2333.top/api?server=:server&type=:type&id=:id&auth=:auth&r=:r';
         </script>
         <meting-js
@@ -128,7 +128,6 @@
       </div>
     </div>
 
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="assets/js/index.js"></script>
     <script src="https://unpkg.com/aplayer/dist/APlayer.min.js"></script>
     <script src="https://unpkg.com/meting/dist/Meting.min.js"></script>
