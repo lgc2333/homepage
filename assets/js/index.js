@@ -97,10 +97,3 @@ async function changeBG() {
   // eslint-disable-next-line no-script-url
   changeElem.href = 'javascript:changeBG()';
 }
-
-(async () => {
-  for (;;) {
-    await changeBG();
-    await sleep(45 * 1000);
-  }
-})();
