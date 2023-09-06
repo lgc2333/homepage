@@ -79,10 +79,11 @@ async function changeBG() {
   };
 
   if (changing) return;
-
   changing = true;
-  changeElem.href = '#';
-  bgInfoA.href = '#';
+
+  // eslint-disable-next-line no-script-url
+  changeElem.href = 'javascript:void(0)';
+  // bgInfoA.href = '#';
   bgInfoA.innerText = 'Loading~';
 
   try {
