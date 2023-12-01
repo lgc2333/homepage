@@ -27,12 +27,13 @@ function choose(list) {
 
 function roll() {
   const date = new Date();
-  if (
-    date.getMonth() === 3 &&
-    date.getDate() === 1 &&
-    // 第一次必定触发，之后 50% 概率
-    (!localStorage.getItem('rolled') || randMax(99) >= 50)
-  ) {
+  if (!(date.getMonth() === 3 && date.getDate() === 1)) {
+    localStorage.removeItem('rolled');
+    return;
+  }
+
+  // 第一次必定触发，之后 50% 概率
+  if (!localStorage.getItem('rolled') || randMax(99) >= 50) {
     localStorage.setItem('rolled', '1');
     const link = choose(LINKS);
     window.location.href = link;
