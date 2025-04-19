@@ -1,0 +1,31 @@
+root: true
+
+env:
+  es2020: true
+
+ignorePatterns:
+  - 'node_modules/'
+  - 'lib/'
+  - 'dist/'
+  - '.yarn/'
+  - '/cache/vite/'
+  - '*.html'
+
+extends:
+  - '@cordisjs/eslint-config'
+
+rules:
+  no-plusplus:
+    - error
+    - allowForLoopAfterthoughts: true
+  indent: off
+  sort-imports: off
+  space-in-parens: off
+  operator-linebreak: off
+  lines-between-class-members:
+    - error
+    - enforce:
+        - blankLine: always
+          prev: '*'
+          next: method
+
